@@ -12,7 +12,11 @@
    
 <h1><?php the_title();?></h1>
 <p><?php the_content();?></p>
-
+<section class="blogg">
+                     <div class="blogimag">
+                          <img src="<?php echo get_template_directory_uri(); ?>/images/business.jpg" alt="box">
+                     <div>
+      </section>
 
 </div>
 

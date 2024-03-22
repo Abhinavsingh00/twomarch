@@ -12,7 +12,6 @@
 
 
 
-
 <!-- THIS IS USED FOR TO GET POSTS IN BLOG PAGE  -->
 
 <?php
@@ -34,6 +33,11 @@ else :
 endif;
 ?> 
 
+      <section class="blogg">
+                     <div class="blogimag">
+                          <img src="<?php echo get_template_directory_uri(); ?>/images/worker.jpg" alt="box">
+                     <div>
+      </section>
         
 </div>
 

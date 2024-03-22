@@ -433,24 +433,15 @@ footer{
 	color: #176b68;
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 	.show{
 		display: block !important;
+	  }
+
+	  /* blog css */
+	 
+	  .blogimag {
+		width: 30%;
+	  }
+	  .blogimag img{
+     width: 100%;
 	  }
