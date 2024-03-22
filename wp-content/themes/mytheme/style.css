@@ -1,0 +1,456 @@
+/*
+	Theme Name: My theme
+	Text Domain: mytheme
+*/
+/* header start css  */
+body{
+	margin: 0;
+}
+header{
+	position: fixed;
+	top: 32px;
+	left: 0px;
+	right: 0px;
+	z-index: 999;
+	background-color: #ffffff;
+
+}
+.container{
+	max-width: 1440px;
+	width: 100%;
+	margin: 0 auto;
+
+}
+.hed-flx {
+	display: flex;
+	justify-content: space-between;
+   align-items: center;
+
+}
+.head-logo  {
+font-size: 32px;
+font-weight: 800;
+color: #000000;
+}
+.navbar ul  {
+	display: flex;
+	gap: 90px;
+	list-style: none;
+}
+.navbar ul li a {
+text-decoration: none;
+font-size: 20px;
+color:#000000 ;
+font-weight: 800;
+}
+.navbar ul li a:hover{
+	color:#11B2B9 ;
+}
+
+.btn-submt  { 
+font-size: 20px;
+padding: 10px 30px;
+background-color: #11B2B9;
+border-radius: 10px;
+color: #ffffff;
+border: none;
+cursor: pointer;
+font-weight: 800;
+}
+
+.btn-submt:hover{
+	background-color: #176b68;
+	color: #ffffff;
+}
+
+/* header end css  */
+
+/* banner start*/
+.backimg{
+	background-image: url(images/banner.jpg);
+	height: 800px;
+	max-width: 100%;
+	width: 100%;
+	background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+	position: relative;
+	margin-top: 55px;
+}
+.banrtxt {
+width: 50%;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-80%,-50%);
+}
+.banrtxt h1{
+font-size: 70px;
+margin: 0;
+}
+.btnflx{
+	display: flex;
+	justify-content: space-between;
+	width: 40%;
+}
+.btnone{
+	padding: 15px 30px;
+	background-color:#11B2B9 ;
+	border: none;
+	border-radius: 10px;
+	color: #ffffff;
+	font-weight: 700;
+}
+.btnone:hover{
+	background-color: #176b68;
+	color: #ffffff;
+}
+.btntwo{
+	padding: 15px 30px;
+	background-color:#11B2B9 ;
+	border: none;
+	border-radius: 10px;
+	color: #ffffff;
+	font-weight: 700;
+}
+.btntwo:hover{
+	background-color: #176b68;
+	color: #ffffff;
+}
+/* banner end*/
+/* three box start  */
+.threbox{
+	margin-top: 100px;
+}
+.featur h3{
+	font-size: 50px;
+	color: #000000;
+	text-align: center;
+	margin: 0;
+}
+.featur p{
+font-size: 24px;
+text-align: center;
+width: 50%;
+margin: 0 auto;
+}
+.boxflx{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 40px;
+}
+.firstbox{
+width: 27%;
+display: flex;
+flex-direction: column;
+align-items: center;
+background-color: #11B2B9;
+padding: 60px 30px;
+border-radius: 10px;
+}
+.firstbox:hover{
+	background-color: #176b68;
+}
+.firstbox h1{
+	color: #ffffff;
+	margin: 0;
+}
+.firstbox p{
+	color: #ffffff;
+	text-align:center;
+}
+.boxbtn{
+	padding: 10px 40px;
+	border:2px solid #ffffff;
+	border-radius: 10px;
+	font-weight: 700;	
+	color: #ffffff;
+	cursor: pointer;
+}
+.boxbtn:hover{
+	background-color: #11B2B9;
+}
+
+/* three box END  */
+
+.difrent{
+	margin-top: 100px
+}
+.difflex{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 50px;
+}
+
+.acoddn{
+	width: 50%;
+}
+
+
+
+/* about page  */
+.abut{
+	background-color: #11B2B9;
+	padding: 40px 50px;
+	text-align: center;
+	color: #ffffff;
+	margin-top: 55px;
+	
+}
+.abut h1{
+	font-size: 40px;
+	margin: 0;
+}
+.cont h3{
+	width: 60%;
+	margin: 0 auto;
+	margin-top: 30px;
+	font-weight: 300;
+	text-align: center;
+}
+.abutflx{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 30px;
+	gap: 20px;
+}
+.abutxt h3{
+	font-weight: 300;
+}
+/* about page end */
+
+/* contact us start  */
+form {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+  
+  label {
+	margin-bottom: 8px;
+	margin-top: 20px;
+  }
+  
+  input {
+	padding: 8px;
+	margin-bottom: 16px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	margin-bottom: 0px;
+	width: 90%;
+  }
+  
+  .submit{
+	padding: 10px 40px;
+	background-color: #11B2B9;
+	color: #ffffff;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	margin-top: 20px;
+	width: 200px;
+  }
+  .submit:hover{
+	background-color: #176b68;
+  }
+
+  .reqrd{
+	color: red;
+	font-weight: 600;
+  }
+  .cotct{
+	margin-top: 55px;
+  }
+  .context h1{
+	text-align: center;
+	font-size: 50px;
+	margin: 0;
+  }
+ .card-body{
+	display: flex;
+	justify-content: space-between;
+  align-items: center;
+ }
+ .fomige{
+	width:40%;
+ }
+ .fomige img{
+	width: 100%;
+ }
+ 
+/* contact us end */
+
+/* blog page started */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* <!--===================================================== simple accordian  =================================--> */
+.icn{
+	background-color: #3a4a55;
+	padding:15px 30px;
+	color: #ffff;
+}
+
+.acodtxt{
+	background-color: #3a4a55;
+	padding: 15px 30px;
+	border: 1px solid white;
+	color: white;
+	cursor: pointer;
+}
+.cmptxt{
+	display: none;
+	background-color: #1c3b3a;
+	padding: 15px 30px;
+	color: white;
+}
+
+/* <!--===================================================== icon click accordian  =================================--> */
+.maindv{
+	width: 90%;
+	border: 1px solid;
+	margin-top: 10px;
+}
+.maindv:hover{
+color:#11B2B9;
+}
+.acflx{
+    display: flex;
+    justify-content: space-between;
+	align-items: center;
+    border: 1px solid;
+	padding: 0px 20px;
+}
+.icnn{
+	padding: 20px;
+}
+.acotxxt{
+	display:none;
+}
+.addicon{
+	transform: rotate(180deg);
+}
+
+/* <!--===================================================== iconanother  click accordian  =================================--> */
+.acmain{
+	width: 600px;
+	border: 1px solid;
+	margin-top: 10px;
+}
+.acooflx{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 15px 20px;
+	border: 1px solid;
+}
+.pgraph{
+	padding: 0px 20px;
+	display: none;
+}
+.rotate{
+	transform: rotate(180deg);
+}
+
+
+/* footer  */
+footer{
+	margin-top: 100px;
+}
+.footflx{
+	display: flex;
+	justify-content: space-between;
+}
+.fotfst{
+	width: 25%;
+}
+.flexicn {
+	font-size: 30px;
+	display: flex;
+	gap: 30px;
+}
+.fotsec h1{
+	color: #11B2B9;
+}
+.fotfst h1{
+	margin: 0px;
+}
+.fotfst p{
+	width: 70%;
+}
+.contflx{
+	display: flex;
+	gap: 10px;
+	align-items:center ;
+}
+.inputt{
+	width: 100%;
+	padding: 20px 10px;
+
+}
+.reqst{
+	margin-top: 20px;
+	padding: 15px 40px;
+	border:2px solid #ffffff;
+	background-color: #11B2B9;
+	border-radius: 10px;
+	font-weight: 700;	
+	color: #ffffff;
+	cursor: pointer;
+}
+.reqst:hover{
+	background-color: #176b68;
+	color: #ffffff;
+}
+.endline{
+	margin-top: 40px;
+	border-top:2px solid #11B2B9;
+	text-align: center;
+	color: #176b68;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	.show{
+		display: block !important;
+	  }
